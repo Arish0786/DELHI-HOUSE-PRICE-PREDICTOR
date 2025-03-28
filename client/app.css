@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('https://media.istockphoto.com/id/1192403701/photo/residential-housing-background.jpg?s=612x612&w=0&k=20&c=8iquSynRiqeXDRaE53-0aKNEGe8y7RKslG2SoYwYGAQ=') no-repeat center center fixed;
+    background-size: cover;
+    text-align: center;
+    color: black;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.85);
+    padding: 25px;
+    margin: 50px auto;
+    width: 380px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #2c3e50;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin: 15px 0;
+}
+
+input, select {
+    width: 85%;
+    padding: 12px;
+    margin: 5px 0;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.bhk-options, .bath-options {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+.bhk-btn, .bath-btn {
+    padding: 10px 15px;
+    border: none;
+    background: #ddd;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.bhk-btn.active, .bath-btn.active {
+    background: #27ae60;
+    color: white;
+    font-weight: bold;
+}
+
+.estimate-btn {
+    background: #27ae60;
+    padding: 12px 20px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 6px;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.estimate-btn:hover {
+    background: #219150;
+}
+
+.price-display {
+    margin-top: 15px;
+    font-size: 22px;
+    background: yellow;
+    padding: 12px;
+    border-radius: 6px;
+    font-weight: bold;
+    color: #2c3e50;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+#map {
+    width: 100%;
+    height: 400px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
